@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="purple_200">#C77DFF</color>
+    <color name="purple_300">#9D4EDD</color>
+    <color name="purple_400">#7B2CBF</color>
+    <color name="purple_600">#3C096C</color>
+
+    <color name="teal_200">#C7f9CC</color>
+    <color name="teal_400">#80ED99</color>
+    <color name="blue_200">#38A3A5</color>
+    <color name="blue_400">#22577A</color>
+    <color name="blue_pen">#000387</color>
+    <color name="comp_yellow">#b5b503</color>
+
+
+    <color name="triatica_1">#EAE2B7</color>
+    <color name="triatica_2">#FCBF49</color>
+    <color name="triatica_3">#F77F00</color>
+    <color name="triatica_4">#D62828</color>
+    <color name="triatica_5">#003049</color>
+
+    <color name="quad_1">#0F4C5C</color>
+    <color name="quad_2">#E36414</color>
+    <color name="quad_3">#FB8B24</color>
+    <color name="quad_4">#9A031E</color>
+    <color name="quad_5">#5F0F40</color>
+
+
+
+
+
+
+</resources>

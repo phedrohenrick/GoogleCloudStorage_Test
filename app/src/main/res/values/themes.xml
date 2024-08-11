@@ -1,0 +1,93 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplicationScreens" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <!-- Primary brand color. -->
+        <item name="android:colorAccent">@color/purple_200</item>
+        <item name="colorAccent">@color/purple_300</item>
+        <item name="colorPrimary">@color/purple_400</item>
+        <item name="colorButtonNormal">@color/purple_400</item>
+        <item name="android:textColor">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="card_purple">
+        <item name="android:textColor">@color/white</item>
+        <item name="cardBackgroundColor">@color/purple_300</item>
+    </style>
+
+    <style name="Theme.MyApplicationScreens2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/triatica_3</item>
+        <item name="android:textColor">@color/triatica_1</item>
+        <item name="colorButtonNormal">@color/triatica_5</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="Theme.MyApplicationScreens3" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/quad_1</item>
+        <item name="colorPrimaryDark">@color/quad_1</item>
+        <item name="android:textColor">@color/triatica_1</item>
+        <item name="imageButtonStyle">@color/quad_4</item>
+        <item name="colorButtonNormal">@color/quad_5</item>
+        <item name="cardBackgroundColor">@color/quad_3</item>
+
+    </style>
+
+    <style name="Theme.SignUp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="background">@color/comp_yellow</item>
+        <item name="colorPrimaryDark">@color/blue_pen</item>
+        <item name="textBackground">@color/white</item>
+        <item name="android:actionBarStyle">@color/black</item>
+    </style>
+
+    <style name="Theme.MyApplicationScreensdialog" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/triatica_3</item>
+        <item name="android:textColor">@color/triatica_1</item>
+        <item name="colorButtonNormal">@color/triatica_5</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+   <style name="card_SignUp">
+       <item name="cardBackgroundColor">@color/blue_pen</item>
+       <item name="editTextBackground">@color/white</item>
+   </style>
+
+    <style name="card_dark">
+        <item name="cardBackgroundColor">@color/triatica_5</item>
+        <item name="android:textColor">@color/triatica_1</item>
+    </style>
+
+    <style name="card_light">
+        <item name="cardBackgroundColor">@color/quad_3</item>
+    </style>
+
+    <style name="card_quad5">
+        <item name="cardBackgroundColor">@color/quad_5</item>
+        <item name="android:textColor">@color/triatica_1</item>
+    </style>
+
+    <style name="card_quad4">
+        <item name="cardBackgroundColor">@color/quad_4</item>
+        <item name="android:textColor">@color/triatica_1</item>
+        <item name="colorPrimary">@color/comp_yellow</item>
+
+
+    </style>
+
+    <style name="tooBar_light">
+        <item name="android:textColor">@color/triatica_1</item>
+    </style>
+
+    <style name="tooBar_dark">
+        <item name="android:textColor">@color/triatica_5</item>
+    </style>
+
+</resources>
+

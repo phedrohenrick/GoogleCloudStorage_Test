@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name"> Colored Screens</string>
+    <string name="msg_boas_vindas">Bem Vindos ao meu Aplicativo</string>
+    <string name="texto_login">Digite aqui seu login</string>
+    <string name="text_login_date">Digite sua data de nascimento</string>
+    <string name="plain_text_nome">Nome do usuário</string>
+    <string name="plain_text_senha">Senha</string>
+    <string name="text_view_senha">Digite sua senha</string>
+    <string name="button_login">entrar</string>
+    <string name="checkBox">não sou robô</string>
+    <string name="birthday">Data de nascimento</string>
+    <string name="image_button">imagem</string>
+    <string name="progress_bar">progresso</string>
+    <string name="Bem_vindo">Bem vindo à página de login</string>
+
+
+</resources>

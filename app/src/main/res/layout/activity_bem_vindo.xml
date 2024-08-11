@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".BemVindoActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Toolbar
+                android:id="@+id/toolBar"
+                android:layout_width="395dp"
+                android:layout_height="133dp"
+                android:title="           Hamonia Triática"
+                android:titleTextColor="@color/triatica_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_like"
+                app:layout_constraintBottom_toBottomOf="@id/toolBar"
+                app:layout_constraintEnd_toEndOf="@id/toolBar"
+                app:layout_constraintHorizontal_bias="0.700"
+                app:layout_constraintStart_toStartOf="@id/toolBar"
+                app:layout_constraintTop_toTopOf="@id/toolBar" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_share"
+                app:layout_constraintBottom_toBottomOf="@id/toolBar"
+                app:layout_constraintEnd_toEndOf="@id/toolBar"
+                app:layout_constraintHorizontal_bias="0.800"
+                app:layout_constraintStart_toStartOf="@id/toolBar"
+                app:layout_constraintTop_toTopOf="@id/toolBar" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_360_24"
+                app:layout_constraintBottom_toBottomOf="@id/toolBar"
+                app:layout_constraintEnd_toEndOf="@id/toolBar"
+                app:layout_constraintHorizontal_bias="0.900"
+                app:layout_constraintStart_toStartOf="@id/toolBar"
+                app:layout_constraintTop_toTopOf="@id/toolBar" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="@id/toolBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolBar"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="32dp"
+            style="@style/card_dark"
+           >
+
+
+            <TextView
+                android:id="@+id/Bem_vindo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="16"
+                android:padding="32dp"
+                android:shadowColor="#003049"
+                android:text="TextView"
+                android:visibility="visible" />
+        </androidx.cardview.widget.CardView>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="64"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="64dp">
+
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:elevation="32dp"
+            android:text="Previous" />
+
+        <Button
+            android:id="@+id/buttonNext1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:elevation="32dp"
+            android:text="Next" />
+    </LinearLayout>
+
+
+</LinearLayout>
