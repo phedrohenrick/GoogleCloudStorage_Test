@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MyApplicationScreens" parent="Theme.AppCompat.Light.DialogWhenLarge">
+    <style name="Theme.MyApplicationScreens" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="android:colorAccent">@color/purple_200</item>
         <item name="colorAccent">@color/purple_300</item>

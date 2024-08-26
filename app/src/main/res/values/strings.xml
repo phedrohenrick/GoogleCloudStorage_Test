@@ -12,6 +12,8 @@
     <string name="image_button">imagem</string>
     <string name="progress_bar">progresso</string>
     <string name="Bem_vindo">Bem vindo à página de login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
